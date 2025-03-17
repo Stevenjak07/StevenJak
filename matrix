@@ -1,0 +1,12 @@
+matrix  = []
+matrix.append([])
+matrix[0].append("A")
+matrix[0].append("B")
+matrix[0].append("Male")
+matrix[0].append("2")
+matrix.append([])
+matrix[1].append("A")
+matrix[1].append("C")
+matrix[1].append("Female")
+matrix[1].append("2")
+print(matrix[0][2])

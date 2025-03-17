@@ -1,0 +1,25 @@
+from datetime import date
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+# a class method to create a Person Object bt birth year.
+    @classmethod
+    def frombirthyear(cls, name, year):
+        return cls(name, date.today().year - year)
+    @classmethod
+    def byname(cls,firstName,lastName,age):
+        return cls(firstName + " " + lastName, age)
+# a static method to check if a person is adult or not.
+    @staticmethod
+    def isAdult(age):
+        return age >= 18
+
+person1 = Person.frombirthyear("steven", 2000)
+person2 = Person("Jane Doe", 25)
+person3 = Person.byname("Sothea", "long", 30)
+print(person1.age)
+print(person2.age)
+print(person3.age)
+# pront the result
+print(Person.isAdult(22))
