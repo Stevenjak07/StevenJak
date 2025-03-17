@@ -15,3 +15,4 @@ try:
     perform_operation(input_value)
 except ValueError as ve:
     logging.exception("Exception occurred: %s", str(ve))
+

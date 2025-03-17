@@ -12,7 +12,7 @@ logger.debug("Hermless debig Message")
 
 logger.info("Informational message")
 
-logger.warning("It's Warning")
+logger.warning("It's Warning xnxx")
 
 logger.error("An error occurred")
 
