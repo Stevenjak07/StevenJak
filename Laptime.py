@@ -7,6 +7,6 @@ class constructorExample:
 # A Method in the class
     def welcomeText(self):
         print('Welcome to theasdgsagsadg ' + self.name + ' club')
-obj = constructorExample('Linna pocket')
+obj = constructorExample('Linna pocket okay bong jack nh dg hx')
 print(obj.name)
 obj.welcomeText()
